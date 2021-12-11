@@ -3,8 +3,8 @@
   padding: 0;
 }
 
-.page1,
-.page2 {
+#page1,
+#page2 {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,16 +23,16 @@ a {
   padding: 10px 30px;
 }
 
-.page1 {
+#page1 {
   background-color: ForestGreen;
 }
 
-.page2 {
+#page2 {
   background-color: DarkOrange;
 }
 
 .slide-in {
-  animation-name: change 0.5s ease forwards;
+  animation: change 0.5s ease forwards;
 }
 
 @keyframes change {
